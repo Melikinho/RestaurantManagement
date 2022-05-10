@@ -1,0 +1,90 @@
+using System;
+
+// 1. behövs bara 1 klass
+// 2. 3 metoder och 2 attributer behövs beroende på hur man skapar programmet i koden
+
+
+
+
+namespace RestaurantRegisterProgram
+{
+    class MainClass
+    {
+
+        public String fullname;
+        public double salary;
+
+        public void Employee()
+        {
+            fullname = "";
+            double = salary;
+        }
+
+        public String fullName
+        {
+            get
+            {
+                return fullName;
+            }
+            set
+            {
+                fullname = value;
+            }
+        }
+
+        public double salaryWage
+        {
+            get
+            {
+                return salary;
+
+            }
+            set
+            {
+                salary = value;
+            }
+        }
+
+        public string employeetoString()
+        {
+            return (Convert.ToString(salary) + " " + fullname + " ");
+        }
+
+        public void nameSalary()
+        {
+            Console.WriteLine("Name :"); fullName = Console.ReadLine();
+            Console.WriteLine("Salary: "); salary = double.Parse(Console.ReadLine());
+        }
+
+        public void write()
+        {
+            Console.WriteLine(fullname + "," + salary);
+
+        }
+
+
+
+
+        public static void Main(string[] args)
+        {
+            {
+
+            Console.WriteLine("Restaurant register program for employees ");
+            Console.WriteLine("Name of the new Employee: ");
+            String fullname = Console.ReadLine();
+            Console.WriteLine("Salary for the new Employee: ");
+
+
+
+
+
+
+
+
+        }
+    
+    }
+}
+
+
+}
