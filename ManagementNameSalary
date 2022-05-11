@@ -75,6 +75,9 @@ namespace RestaurantRegisterProgram
             Console.WriteLine("Salary for the new Employee: ");
 
 
+            Console.WriteLine("Hey, Wanna check if this push to Github function Works! ");
+
+
 
 
 
